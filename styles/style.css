@@ -52,6 +52,7 @@ button {
 	font-size: 18px;
 	padding: 6px 20px;
 	cursor: pointer;
+	transition: 0.3s;
 
 	&:hover {
 		background-color: #545050;
@@ -62,6 +63,7 @@ button {
 	}
 
 	&:focus-visible {
+		outline: 1px double #fff;
 	}
 }
 
@@ -101,6 +103,7 @@ button {
 .content__list-item {
 	margin-bottom: 30px;
 	padding: 0 3px;
+	transition: 0.3s;
 
 	&:hover {
 		background-color: #545050;
@@ -228,6 +231,7 @@ button {
 }
 
 .search-form__label-text {
+	transition: 0.3s;
 	&:hover {
 		text-decoration: underline;
 	}
