@@ -96,6 +96,7 @@ button {
 }
 
 .content__list-container {
+	position: relative;
 	height: 298px;
 	overflow-y: scroll;
 }
@@ -123,6 +124,7 @@ button {
 	width: 711px;
 	margin-bottom: 16px;
 	justify-self: flex-end;
+	position: relative;
 }
 
 .result__video {
